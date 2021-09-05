@@ -8,8 +8,8 @@ def clock_in(uname, passwd):
     chrome_options = Options()
     chrome_options.add_argument('--headless')
     chrome_options.add_argument('--disable-gpu')
-    chrome_options.binary_location = r'谷歌浏览器绝对路径'
-    bro = webdriver.Chrome(executable_path='驱动绝对路径', options=chrome_options)
+    chrome_options.binary_location = r'/bin/chrome'
+    bro = webdriver.Chrome(executable_path='/usr/bin/chromedriver', options=chrome_options)
 
     bro.get('http://ids2.just.edu.cn/cas/login?service=http%3A%2F%2Fmy.just.edu.cn%2F')
     print('信息门户加载完成')
