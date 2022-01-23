@@ -2,6 +2,8 @@
 
 该脚本主要实现江苏科技大学每日的健康打卡功能，主要使用python的`selenium`模块完成。
 
+[docker镜像地址](https://hub.docker.com/r/lum1n0us/just_auto_punch)
+
 注意：该脚本仅提供个人学习使用，切勿用于其他途径，由此造成的损失与本人无关！
 
 # 环境安装与配置
